@@ -131,3 +131,21 @@ git push -u origin main
 ## Example Artifact (Output)
 
 ![Word Cloud Example](docs/images/word_cloud_example.png)
+
+
+P1 Custom Project Notes
+
+The Technical modifications I made on my project are the following:
+A. Change a Input or Setting:
+I changed the Input to https://mydss.mo.gov/healthcare/seniors-disabled/ link related to Healthcare . This helped me analyze the top 10 common words used in a Healthcare website.
+
+B. Change the Logic:
+1. I converted all the selected words to uppercase and cleaned all words greater than 5 characters length.
+2. Built a dataframe with only top 5 most occured words from the webpage
+3. Used only the top 5 words in the visualization.
+
+C. Change the Output
+1. I changed the visualization from bar graph to Lollipop chart
+2. I customized the visualization colors by assigning different colors to the dot and line.
+3. On the Data Cloud I changed the word output from lowercase to uppercase letters.
+4. I changed the background color of the data cloud from white to red.
